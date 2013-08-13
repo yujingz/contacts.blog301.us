@@ -10,5 +10,6 @@
  *
  *= require_self
  *= require bootstrap_and_override
+ *= require flat-ui
  *= require_tree .
  */

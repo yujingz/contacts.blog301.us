@@ -1,1 +1,25 @@
-h1 StaticPage#index
+div.container
+  div.row
+    div.page-header
+      h1 301 Contacts
+    p.lead
+      | A place to reunion
+    div.main-table
+      table.table
+        thead
+          tr
+            th #
+            th 姓名
+            th 电话
+            th 邮件地址
+            th 住址
+            th 生日
+        tbody
+          - @users.each_with_index do |user, index|
+            tr
+              td= index + 1
+              td= user.name
+              td= user.tel
+              td= user.email
+              td= user.address
+              td= user.birthday
