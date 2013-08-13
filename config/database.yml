@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: contacts_development
+  pool: 25
+
+test:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: contacts_test
+  pool: 25
