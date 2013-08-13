@@ -33,6 +33,7 @@ end
 
 group :development do
   gem 'thin'
+  gem 'heroku_san'
 end
 
 gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
