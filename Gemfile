@@ -47,7 +47,11 @@ gem 'rails_12factor'
 gem "figaro"
 
 gem 'newrelic_rpm'
-
+gem 'pry'
+gem 'pry-rails'
+gem 'pry-remote'
+gem 'pry-stack_explorer'
+gem 'pry-debugger'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
