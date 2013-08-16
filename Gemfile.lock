@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/Nerian/bootstrap-datepicker-rails.git
+  revision: 5bb174d36af62a02afa800de1de4647042896e41
+  specs:
+    bootstrap-datepicker-rails (1.1.1.6)
+      railties (>= 3.0)
+
+GIT
   remote: git://github.com/anjlab/bootstrap-rails.git
   revision: 507323616c5a3e2fe6d9e60cc21cce7d58a639f5
   branch: 3.0.0
@@ -175,6 +182,7 @@ PLATFORMS
 
 DEPENDENCIES
   anjlab-bootstrap-rails!
+  bootstrap-datepicker-rails!
   coffee-rails (~> 4.0.0)
   figaro
   heroku_san

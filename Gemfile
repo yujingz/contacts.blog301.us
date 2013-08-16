@@ -36,6 +36,11 @@ end
 group :development do
   gem 'thin'
   gem 'heroku_san'
+  gem 'pry'
+  gem 'pry-rails'
+  gem 'pry-remote'
+  gem 'pry-stack_explorer'
+  gem 'pry-debugger'
 end
 
 gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
@@ -47,11 +52,10 @@ gem 'rails_12factor'
 gem "figaro"
 
 gem 'newrelic_rpm'
-gem 'pry'
-gem 'pry-rails'
-gem 'pry-remote'
-gem 'pry-stack_explorer'
-gem 'pry-debugger'
+gem 'bootstrap-datepicker-rails', :require => 'bootstrap-datepicker-rails', :git => 'git://github.com/Nerian/bootstrap-datepicker-rails.git'
+
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -63,3 +67,4 @@ gem 'pry-debugger'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+

@@ -10,6 +10,7 @@
  *
  *= require_self
  *= require bootstrap_and_override
+ *= require bootstrap-datepicker
  *= require flat-ui
  *= require_tree .
  */
