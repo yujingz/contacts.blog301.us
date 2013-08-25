@@ -16,4 +16,13 @@
 //= require turbolinks
 //= require bootstrap-datepicker/core
 //= require bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.js
+//= require handlebars
+//= require ember
+//= require ember-data
+//= require_self
+//= require contacts
+
+// for more details see: http://emberjs.com/guides/application/
+Contacts = Ember.Application.create();
+
 //= require_tree .

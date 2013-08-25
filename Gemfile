@@ -54,7 +54,9 @@ gem "figaro"
 gem 'newrelic_rpm'
 gem 'bootstrap-datepicker-rails', :require => 'bootstrap-datepicker-rails', :git => 'git://github.com/Nerian/bootstrap-datepicker-rails.git'
 
-
+# emberjs
+gem 'ember-rails'
+gem 'ember-source'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
