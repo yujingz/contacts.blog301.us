@@ -56,7 +56,8 @@ gem 'bootstrap-datepicker-rails', :require => 'bootstrap-datepicker-rails', :git
 
 # emberjs
 gem 'ember-rails'
-gem 'ember-source'
+gem 'ember-source', "1.0.0.rc7"
+gem 'emblem-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -69,4 +70,3 @@ gem 'ember-source'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-

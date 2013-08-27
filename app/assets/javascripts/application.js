@@ -21,8 +21,6 @@
 //= require ember-data
 //= require_self
 //= require contacts
-
-// for more details see: http://emberjs.com/guides/application/
-Contacts = Ember.Application.create();
-
-//= require_tree .
+Contacts = Ember.Application.create({
+  LOG_TRANSITIONS: true
+});
