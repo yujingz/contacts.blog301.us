@@ -56,7 +56,7 @@ gem 'bootstrap-datepicker-rails', :require => 'bootstrap-datepicker-rails', :git
 
 # emberjs
 gem 'ember-rails'
-gem 'ember-source', "1.0.0.rc7"
+gem 'ember-source', '1.0.0'
 gem 'emblem-rails'
 
 # Use ActiveModel has_secure_password
