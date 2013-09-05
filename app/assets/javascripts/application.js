@@ -13,7 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
-//= require turbolinks
 //= require bootstrap-datepicker/core
 //= require bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.js
 //= require handlebars
@@ -21,6 +20,7 @@
 //= require ember-data
 //= require_self
 //= require contacts
+
 Contacts = Ember.Application.create({
   LOG_TRANSITIONS: true
 });

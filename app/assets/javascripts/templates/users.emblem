@@ -1,3 +1,30 @@
 .row
   .col-lg-12
-    h1 301 Contacts
+    div.page-header
+      h1 301 Contacts
+    p.lead
+      | A place to reunion
+    div.main-table
+      table.table
+        thead
+          tr
+            th #
+            th 姓名
+            th 电话
+            th 邮件地址
+            th 住址
+            th 生日
+        tbody
+          each user in users
+            tr
+              td = user.id
+              td = user.name
+          /*each controller*/
+            /*tr*/
+              /*td = name*/
+              /*td = tel*/
+              /*td= user.id*/
+              /*td= user.tel*/
+              /*td= user.email*/
+              /*td= user.address*/
+              /*td= user.birthday*/

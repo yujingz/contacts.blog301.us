@@ -3,5 +3,4 @@ Contacts.Router.reopen
   rootURL: '/'
 
 Contacts.Router.map ()->
-  @resource "user"
-
+  @route('users', path: "/")
