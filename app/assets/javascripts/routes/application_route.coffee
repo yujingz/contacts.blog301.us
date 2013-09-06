@@ -1,1 +1,1 @@
-class Contacts.ApplicationRoute extends Ember.Route
+Contacts.ApplicationRoute = Ember.Route.extend()

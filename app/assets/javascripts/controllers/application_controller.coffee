@@ -1,1 +1,1 @@
-class Contacts.ApplicationController extends Ember.Controller
+Contacts.ApplicationController = Ember.Controller.extend()

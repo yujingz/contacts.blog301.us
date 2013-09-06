@@ -15,11 +15,11 @@
             th 住址
             th 生日
         tbody
-          each controller
+          each user in users
             tr
-              td = id
-              td = name
-              td = tel
-              td = email
-              td = address
-              td = birthday
+              td = linkTo 'users.show' user | #{user.id}
+              td = linkTo 'users.show' user | #{user.name}
+              td = user.tel
+              td = user.email
+              td = user.address
+              td = user.birthday

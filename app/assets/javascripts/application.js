@@ -20,7 +20,7 @@
 //= require ember-data
 //= require_self
 //= require contacts
-
 Contacts = Ember.Application.create({
   LOG_TRANSITIONS: true
 });
+
