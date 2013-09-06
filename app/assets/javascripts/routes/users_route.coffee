@@ -1,5 +1,5 @@
 Contacts.UsersRoute = Ember.Route.extend
-  model: ->
-    Contacts.User.find()
-  setupController: (controller, model)->
-    @controller.set("users", model)
+  model: -> Contacts.User.find()
+
+Contacts.UserRoute = Ember.Route.extend
+  model: (params)-> Contacts.User.find(params.id)

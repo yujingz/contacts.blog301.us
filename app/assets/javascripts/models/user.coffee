@@ -3,4 +3,4 @@ Contacts.User = DS.Model.extend
   tel:      DS.attr('string')
   email:    DS.attr('string')
   address:  DS.attr('string')
-  birthday: DS.attr('date')
+  birthday: DS.attr('string')

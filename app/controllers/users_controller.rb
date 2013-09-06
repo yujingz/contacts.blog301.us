@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+
   def index
     render json: User.order("id")
   end

@@ -15,16 +15,11 @@
             th 住址
             th 生日
         tbody
-          each user in users
+          each controller
             tr
-              td = user.id
-              td = user.name
-          /*each controller*/
-            /*tr*/
-              /*td = name*/
-              /*td = tel*/
-              /*td= user.id*/
-              /*td= user.tel*/
-              /*td= user.email*/
-              /*td= user.address*/
-              /*td= user.birthday*/
+              td = id
+              td = name
+              td = tel
+              td = email
+              td = address
+              td = birthday

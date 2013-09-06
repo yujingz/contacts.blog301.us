@@ -1,0 +1,13 @@
+div.row
+  div.col-lg-3.col-lg-offset-1
+    h1.name = name
+
+  div.col-lg-10.col-lg-offset-1
+    h2
+      | Email: #{email}
+    h2
+      | Tel: #{tel}
+    h2
+      | Address: #{address}
+    h2
+      | Birthday: #{birthday}

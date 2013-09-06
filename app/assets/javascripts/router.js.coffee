@@ -4,3 +4,4 @@ Contacts.Router.reopen
 
 Contacts.Router.map ()->
   @route('users', path: "/")
+  @route('user', path: '/users/:id')
