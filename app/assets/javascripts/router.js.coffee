@@ -3,6 +3,6 @@ Contacts.Router.reopen
   rootURL: '/'
 
 Contacts.Router.map ->
-  @route 'users', path: '/'
+  @resource "index", path: "/"
   @resource "users", ->
     @route "show", path: "/:user_id"

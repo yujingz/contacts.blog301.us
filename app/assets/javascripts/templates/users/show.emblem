@@ -1,13 +1,25 @@
-div.row
+div.row.contact-header
   div.col-lg-3.col-lg-offset-1
-    h1.name = name
-
+    h2 = content.name
+div.row.contact-detail
   div.col-lg-10.col-lg-offset-1
-    h2
-      | Email: #{email}
-    h2
-      | Tel: #{tel}
-    h2
-      | Address: #{address}
-    h2
-      | Birthday: #{birthday}
+    form
+      table.table.boardless-table cellspace="0" cellpadding="0"
+        tr
+          td Email:
+          td
+            Ember.TextField valueBinding="content.email"
+        tr
+          td Tel
+          td
+            Ember.TextField valueBinding="content.tel"
+        tr
+          td Address:
+          td
+            Ember.TextField valueBinding="content.address"
+        tr
+          td Birthday:
+          td
+            Ember.TextField valueBinding="content.birthday"
+      button.btn type="submit"
+        | update

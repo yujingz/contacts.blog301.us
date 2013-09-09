@@ -12,13 +12,13 @@ class UsersController < ApplicationController
     #@user = User.find(params[:id])
   #end
 
-  #def update
-    #user = User.find(params[:id]).update_attributes user_params
-    #redirect_to :action => :index
-  #end
+  def update
+    render json: User.find(params[:id]).update_attributes(user_params)
+  end
 
 private
   def user_params
+    binding.pry
     params.require(:user).permit(:tel, :email, :address, :birthday)
   end
 

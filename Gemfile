@@ -50,8 +50,4 @@ gem 'emblem-rails'
 gem 'rails-api'
 gem "active_model_serializers"
 
-
-
-
-
 gem 'rails_12factor', group: :production

@@ -17,7 +17,7 @@
         tbody
           each user in users
             tr
-              td = linkTo 'users.show' user | #{user.id}
+              td = user.id
               td = linkTo 'users.show' user | #{user.name}
               td = user.tel
               td = user.email
