@@ -7,4 +7,5 @@ Contacts.UsersShowController = Ember.Controller.extend
         address: @get("content.address")
         birthday: @get("content.birthday")
 
-      @get('store').commit()
+      @get('model').save()
+      @transitionToRoute("users")
