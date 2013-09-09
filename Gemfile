@@ -50,4 +50,7 @@ gem 'emblem-rails'
 gem 'rails-api'
 gem "active_model_serializers"
 
-gem 'rails_12factor', group: :production
+group :production do
+  gem 'heroku'
+  gem 'rails_12factor'
+end
