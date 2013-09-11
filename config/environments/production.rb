@@ -81,4 +81,6 @@ Contacts::Application.configure do
   # emberjs
   config.ember.variant = :production
 
+  GA.tracker = "UA-37452316-2"
+
 end

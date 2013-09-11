@@ -48,7 +48,8 @@ gem 'ember-source', '1.0.0'
 gem 'emblem-rails'
 
 gem 'rails-api'
-gem "active_model_serializers"
+gem 'active_model_serializers'
+gem 'google-analytics-rails'
 
 group :production do
   gem 'heroku'

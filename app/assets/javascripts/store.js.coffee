@@ -1,1 +1,1 @@
-class Contacts.Store extends DS.Store
+Contacts.Store = DS.Store.extend()
