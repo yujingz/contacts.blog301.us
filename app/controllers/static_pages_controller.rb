@@ -2,6 +2,10 @@ class StaticPagesController < ActionController::Base
 
   before_action :authenticate!
 
+  def index
+    gon.api_key = ApiKey.first.access_token
+  end
+
   def authenticate!
     authenticate_or_request_with_http_basic do |username, password|
       hashed_password = Digest::SHA2.hexdigest(ENV["password_salt"] + password)

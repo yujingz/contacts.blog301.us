@@ -51,6 +51,8 @@ gem 'rails-api'
 gem 'active_model_serializers'
 gem 'google-analytics-rails'
 
+gem 'gon'
+
 group :production do
   gem 'heroku'
   gem 'rails_12factor'
